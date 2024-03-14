@@ -8,6 +8,9 @@ backstop reference
 
 backstop test
 
+<!-- To Stop Chrome console logs and PRINT Final Count of Passed/Failed follow instructions given
+in onReadyPuppet.js file in parent folder of the project !-->
+
 # DELETING All Bitmaps Reference
 
 `rm backstop_data/bitmaps_reference/*`
