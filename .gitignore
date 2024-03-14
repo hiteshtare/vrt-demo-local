@@ -1,0 +1,41 @@
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.cache
+
+# Dependency directory
+node_modules
+
+# Users Environment Variables
+.lock-wscript
+
+# Ignore all backstop_data heavy images
+
+**/backstop_data/bitmaps_test/
+**/backstop_data/bitmaps_reference/
+**/backstop_data/html_report/
+**/backstop_data/json_report/
+**/backstop_data/reports/
+compare/config.js
+capture/config.json
+
+compare/output/bitmaps_reference/
+
+compare/output/bitmaps_test/
+
+compare/output/config\.js
+
+\.vscode/
+
+# Do not ignore this folder 
+# !**/backstop_data/html_report/assets/
+
+# Tests
+*integrationTestDir

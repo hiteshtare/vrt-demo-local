@@ -1,0 +1,84 @@
+{
+  "id": "english-blogs",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "label": "iPhone",
+      "width": 375,
+      "height": 667
+    }
+  ],
+  "onBeforeScript": "../../onBeforePuppet.js",
+  "onReadyScript": "../../onReadyPuppet.js",
+  "scenarios": [
+    {
+      "label": "YSS/SRF President Swami Chidanandaji’s India Tour — 2023",
+      "referenceUrl": "https://yssofindia.org/blog/yss-srf-president-and-spiritual-head-sri-sri-swami-chidanandajis-india-tour-2023",
+      "url": "https://test.yssofindia.org/blog/yss-srf-president-and-spiritual-head-sri-sri-swami-chidanandajis-india-tour-2023?2211",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "delay": 15000
+    },
+    {
+      "label": "HINDI - YSS/SRF President Swami Chidanandaji’s India Tour — 2023",
+      "referenceUrl": "https://yssofindia.org/hi/blog/yss-srf-president-and-spiritual-head-sri-sri-swami-chidanandajis-india-tour-2023",
+      "url": "https://test.yssofindia.org/hi/blog/yss-srf-president-and-spiritual-head-sri-sri-swami-chidanandajis-india-tour-2023?2211",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "delay": 15000
+    },
+    {
+      "label": "Request Free Literature",
+      "referenceUrl": "https://yssofindia.org/about/request-free-literature",
+      "url": "https://test.yssofindia.org/about/request-free-literature?2211",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "delay": 15000
+    },
+    {
+      "label": "HINDI - Request Free Literature",
+      "referenceUrl": "https://yssofindia.org/hi/about/request-free-literature",
+      "url": "https://test.yssofindia.org/hi/about/request-free-literature?2211",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "delay": 15000
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": [
+    "browser"
+  ],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--no-sandbox"
+    ],
+    "headless": "new"
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
