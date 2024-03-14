@@ -20,7 +20,16 @@ backstop test
 
 `rm -rf backstop_data/html_report/*`
 
+# Prerequisites
+
+npm install -g backstopjs
+
+# To setup new Project
+
+backstop init
+
 # VRT for LOCAL DEMO
 
 file:///home/hiteshtare/Documents/Projects/vrt-demo-local/backstop_data/html_report/index.html
+
 # vrt-demo-local
